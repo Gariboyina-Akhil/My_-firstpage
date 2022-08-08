@@ -4,37 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="Style.css">
-    <title>My First  page</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>My First page</title>
 </head>
 <body>
-    <!--Navbar-->
-    <header>
-        <nav class="navbar">
-            <div class="navbar_brand">
-                <img src="./pics/logo.png" alt="logo" class="navbar_logo">
-            </div>
-            <div class="navbar_nav_items">
-                <button class="button_gradient">Order Food</button>
-            </div>
-        </nav>
-    </header>
+    <!-- Header -->
+    <div class="Navbar">
+        <div class="Navbar_item1">
+            <img src="./pics/logo.png" alt="logo" class="Navbar_logo">
+        </div>
+        <div class="Navbar_item2">
+            <button class="primary_button">Order Food</button>
+        </div>
+    </div>
     <main class="container">
-    <!-- Hero section -->
+        <!-- Section -->
         <section class="hero_container">
-            <div class="hero_image_container">
-                <img src="./pics/hero.jpg" alt="hero" class="hero_image" >
+            <div class="hero_container_image">
+                <img src="./pics/hero.jpg" alt="hero" class="hero_image">
+                <img src="./pics/svg/heroShape.svg" alt="" class="pattern1">
+                <img src="./pics/svg/herobgpattren.svg" alt="" class="pattern2">
             </div>
             <div class="hero_description">
-                <h1 class="hero_text">Order food from your favourite restarants near you.</h1>
-                <button class="button_gradient">Order Now</button>
+                <h1 class="hero_text">Order food from favorite restarents near you.</h1>
+                <button class="primary_button">Order now</button>
+            </section>
+        <!-- Explore Menu-->    
+        <section class="Explore_menu_container">
+            <h1 class="Explore_menu_Text">Explore Menu</h1>
+            <div class="Explore_menu_lists">
+                <div class="food_menu_card">
+                    <img src="./pics/burger.jpg" alt="burger" class="food_image">
+                    <div class="food_menu_card_description">
+                        <h3 class="food_title"></h3>
+                        <p class="food_restaurants"></p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    
+    </div>
 </body>
 </html>
